@@ -21,7 +21,7 @@ module UserDetail
   end
 
   module ClassMethods    
-
+    
     def save_access_token(auth, user)
       #user.access_token= auth[:credentials][:token] 
       #user.expires_at= auth[:credentials][:expires_at]
@@ -36,7 +36,7 @@ module UserDetail
     end
 
     def from_omniauth(auth)
-      if auth.info.email.include? "joshsoftware.com"
+      if auth.info.email.include? "aviabird.com"
         user = User.where(email: auth.info.email).first
         save_access_token(auth, user)
         create_public_profile_if_not_present(user, auth)

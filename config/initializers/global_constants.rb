@@ -10,8 +10,8 @@ PENDING = 'Pending'
 APPROVED = 'Approved'
 REJECTED = 'Rejected'
 
-ORGANIZATION_DOMAIN = 'joshsoftware.com'
-ORGANIZATION_NAME = 'Josh Software'
+ORGANIZATION_DOMAIN = 'aviabird.com'
+ORGANIZATION_NAME = 'Aviabird Technologies'
 
 CONTACT_ROLE =  ["Accountant", "Technical", "Accountant and Technical"]
 
